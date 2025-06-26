@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Finder</title>
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 네비게이션 바: 로고에 id 추가 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a id="logo" class="navbar-brand" href="#">GitHub Finder</a>
+  </nav>
+
+  <div class="container mt-4">
+    <!-- 검색 카드 -->
+    <div id="search-container" class="card mb-4">
+      <div class="card-body pb-0">
+        <h2 class="card-title">Search GitHub Users</h2>
+        <p class="card-text text-muted">Enter a username to fetch a user profile and repos</p>
+        <form id="search-form">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              id="search-input"
+              class="form-control"
+              placeholder="Enter GitHub username..."
+            />
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Alert 메시지 -->
+    <div id="alert-container"></div>
+
+    <!-- 유저 프로필 렌더링 영역 -->
+    <div id="profile-container"></div>
+
+    <!-- 잔디밭 차트 렌더링 영역 -->
+    <div id="calendar-container"></div>
+
+    <!-- 최신 레포 목록 렌더링 영역 -->
+    <div id="repos-container"></div>
+  </div>
+
+  <!-- Spinner 오버레이 -->
+  <div id="spinner">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer bg-light text-center py-3">
+    GitHub Finder ©
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
