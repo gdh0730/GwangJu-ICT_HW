@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Netflix Clone - HTML & CSS Only</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo" aria-label="Netflix">NETFLIX</div>
+      <nav class="main-nav" aria-label="주 메뉴">
+        <a href="#" aria-current="page">Home</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Movies</a>
+        <a href="#">My List</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Featured: Money Heist"
+    style="--hero-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rybbXGTM3XXTe4r9MsfHlep3KeAaTw.png')">
+    <div class="hero__overlay"></div>
+    <div class="hero__fade"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Money Heist</h1>
+      <p class="hero__desc">
+        To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight
+        robbers
+        who have a single characteristic: n...
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#" role="button">Play</a>
+        <a class="btn btn--secondary" href="#" role="button">My List</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="container site-main" role="main">
+
+    <section class="row" aria-labelledby="row-originals">
+      <h2 id="row-originals" class="row__title">NETFLIX ORIGINALS</h2>
+      <div class="row__scroller" role="list">
+        Replace src with your poster images for exact match
+        <a class="card card--portrait" href="#" role="listitem" aria-label="Luis Miguel">
+          <img src="https://picsum.photos/id/100/400/600" alt="Luis Miguel poster" />
+        </a>
+        <a class="card card--portrait" href="#" role="listitem" aria-label="Lucifer">
+          <img src="https://picsum.photos/id/1011/400/600" alt="Lucifer poster" />
+        </a>
+        <a class="card card--portrait" href="#" role="listitem" aria-label="Haunted">
+          <img src="https://picsum.photos/id/1025/400/600" alt="Haunted poster" />
+        </a>
+        <a class="card card--portrait" href="#" role="listitem" aria-label="Who Killed Sara?">
+          <img src="https://picsum.photos/id/1040/400/600" alt="Who Killed Sara? poster" />
+        </a>
+        <a class="card card--portrait" href="#" role="listitem" aria-label="Cobra Kai">
+          <img src="https://picsum.photos/id/1050/400/600" alt="Cobra Kai poster" />
+        </a>
+        <a class="card card--portrait" href="#" role="listitem" aria-label="Elite">
+          <img src="https://picsum.photos/id/1060/400/600" alt="Elite poster" />
+        </a>
+        <a class="card card--portrait" href="#" role="listitem" aria-label="Transformers: Siege">
+          <img src="https://picsum.photos/id/1074/400/600" alt="Transformers: Siege poster" />
+        </a>
+        <a class="card card--portrait" href="#" role="listitem" aria-label="The Umbrella Academy">
+          <img src="https://picsum.photos/id/1084/400/600" alt="The Umbrella Academy poster" />
+        </a>
+      </div>
+    </section>
+
+    <section class="row" aria-labelledby="row-trending">
+      <h2 id="row-trending" class="row__title">Trending Now</h2>
+      <div class="row__scroller" role="list">
+        <a class="card card--landscape" href="#" role="listitem" aria-label="Trending 1">
+          <img src="https://picsum.photos/id/1015/640/360" alt="Trending item 1" />
+        </a>
+        <a class="card card--landscape" href="#" role="listitem" aria-label="Trending 2">
+          <img src="https://picsum.photos/id/1021/640/360" alt="Trending item 2" />
+        </a>
+        <a class="card card--landscape" href="#" role="listitem" aria-label="Trending 3">
+          <img src="https://picsum.photos/id/1035/640/360" alt="Trending item 3" />
+        </a>
+        <a class="card card--landscape" href="#" role="listitem" aria-label="Trending 4">
+          <img src="https://picsum.photos/id/1041/640/360" alt="Trending item 4" />
+        </a>
+        <a class="card card--landscape" href="#" role="listitem" aria-label="Trending 5">
+          <img src="https://picsum.photos/id/1057/640/360" alt="Trending item 5" />
+        </a>
+        <a class="card card--landscape" href="#" role="listitem" aria-label="Trending 6">
+          <img src="https://picsum.photos/id/1069/640/360" alt="Trending item 6" />
+        </a>
+        <a class="card card--landscape" href="#" role="listitem" aria-label="Trending 7">
+          <img src="https://picsum.photos/id/1070/640/360" alt="Trending item 7" />
+        </a>
+        <a class="card card--landscape" href="#" role="listitem" aria-label="Trending 8">
+          <img src="https://picsum.photos/id/1080/640/360" alt="Trending item 8" />
+        </a>
+        <a class="card card--landscape" href="#" role="listitem" aria-label="Trending 9">
+          <img src="https://picsum.photos/id/1081/640/360" alt="Trending item 9" />
+        </a>
+        <a class="card card--landscape" href="#" role="listitem" aria-label="Trending 10">
+          <img src="https://picsum.photos/id/1082/640/360" alt="Trending item 10" />
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <p>학습용 클론 프로젝트입니다.</p>
+  </footer>
+</body>
+
+</html>
