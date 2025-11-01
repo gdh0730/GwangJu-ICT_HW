@@ -1,0 +1,5 @@
+{
+  "name": "Data Structure Visualizer",
+  "description": "An interactive web application to implement and visualize a generic LinkedList, and data structures built upon it like Queues and Stacks.",
+  "requestFramePermissions": []
+}
