@@ -1,0 +1,5 @@
+{
+  "name": "React Budget Calculator",
+  "description": "A simple CRUD application for managing expenses, built with React, TypeScript, and Tailwind CSS. Users can add, edit, delete, and clear expense items, with data persisted in local storage.",
+  "requestFramePermissions": []
+}

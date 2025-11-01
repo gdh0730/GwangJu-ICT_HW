@@ -1,0 +1,5 @@
+{
+  "name": "React E-Commerce Shop",
+  "description": "A modern e-commerce shopping application built with React, TypeScript, and Tailwind CSS. It features product browsing, filtering, a shopping cart, and a clean user interface, fetching product data from a live API.",
+  "requestFramePermissions": []
+}

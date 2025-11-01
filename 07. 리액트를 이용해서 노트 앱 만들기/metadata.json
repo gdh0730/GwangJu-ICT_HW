@@ -1,0 +1,5 @@
+{
+  "name": "Keep Notes",
+  "description": "A note-taking application inspired by Google Keep, allowing users to create, edit, tag, and organize notes with features like pinning, archiving, and sorting.",
+  "requestFramePermissions": []
+}
